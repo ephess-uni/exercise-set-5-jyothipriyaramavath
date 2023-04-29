@@ -13,7 +13,7 @@ try:
 except ImportError:
     from util import get_repository_root
 
-
+import os
 if __name__ == "__main__":
 
     # Use these predefined input / output files
